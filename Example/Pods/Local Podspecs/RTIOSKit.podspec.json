@@ -1,0 +1,22 @@
+{
+  "name": "RTIOSKit",
+  "version": "0.1.0",
+  "summary": "A short description of RTIOSKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/iThinker/RTIOSKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "iThinker": "temchenko.r@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/iThinker/RTIOSKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RTIOSKit/Classes/**/*"
+}

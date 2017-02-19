@@ -1,0 +1,6 @@
+framework module RTIOSKit {
+  umbrella header "RTIOSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

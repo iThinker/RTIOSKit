@@ -1,0 +1,16 @@
+PODS:
+  - RTIOSKit (0.1.0)
+
+DEPENDENCIES:
+  - RTIOSKit (from `../`)
+
+EXTERNAL SOURCES:
+  RTIOSKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RTIOSKit: 61542e004dd39441433ea63cd463f4d2d6a38b08
+
+PODFILE CHECKSUM: ac6c1cfa7be8bf1bebd6cdafc7e0d47ce0703398
+
+COCOAPODS: 1.2.0
