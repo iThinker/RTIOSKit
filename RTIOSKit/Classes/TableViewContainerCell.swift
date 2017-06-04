@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TableViewContainerCell<Content: UIView>: UITableViewCell {
+open class TableViewContainerCell<Content: UIView>: UITableViewCell {
     
-    var content: Content
+    open var content: Content
     
     override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
         if let viewFromNib = Content.loadDefaultNib() {
@@ -23,11 +23,11 @@ class TableViewContainerCell<Content: UIView>: UITableViewCell {
         self.embedContent()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 
-    func embedContent() {
+    fileprivate func embedContent() {
         let containerView = self.contentView
         containerView.addSubview(self.content)
         self.content.translatesAutoresizingMaskIntoConstraints = false

@@ -8,13 +8,13 @@
 
 import UIKit
 
-extension UIView {
+public extension UIView {
     
-    class func loadDefaultNib() -> Self? {
+    public class func loadDefaultNib() -> Self? {
         return self.instantiateNib()
     }
     
-    class func defaultNibName() -> String {
+    public class func defaultNibName() -> String {
         return String(describing: self)
     }
     

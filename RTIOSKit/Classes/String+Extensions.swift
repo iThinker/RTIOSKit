@@ -8,9 +8,9 @@
 
 import Foundation
 
-extension String.CharacterView {
+public extension String.CharacterView {
     
-    subscript(index: Int) -> Character {
+    public subscript(index: Int) -> Character {
         get {
             return self[self.index(self.startIndex, offsetBy: index)]
         }

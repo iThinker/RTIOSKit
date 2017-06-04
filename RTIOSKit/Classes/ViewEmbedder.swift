@@ -8,9 +8,9 @@
 
 import UIKit
 
-class ViewEmbedder {
+open class ViewEmbedder {
     
-    class func embed(_ view: UIView, in containerView: UIView) {
+    open class func embed(_ view: UIView, in containerView: UIView) {
         containerView.addSubview(view)
         view.translatesAutoresizingMaskIntoConstraints = false
         containerView.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: "H:|-0-[view]-0-|", options: [], metrics: nil, views: ["view": view]))
@@ -19,9 +19,9 @@ class ViewEmbedder {
     
 }
 
-extension UIView {
+public extension UIView {
     
-    func embed(_ view: UIView) {
+    public func embed(_ view: UIView) {
         ViewEmbedder.embed(view, in: self)
     }
     

@@ -8,9 +8,9 @@
 
 import UIKit
 
-class CollectionViewContainerCell<Content: UIView>: UICollectionViewCell {
+open class CollectionViewContainerCell<Content: UIView>: UICollectionViewCell {
     
-    var content: Content
+    open var content: Content
     
     override init(frame: CGRect) {
         if let viewFromNib = Content.loadDefaultNib() {
@@ -23,7 +23,7 @@ class CollectionViewContainerCell<Content: UIView>: UICollectionViewCell {
         self.embedContent()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

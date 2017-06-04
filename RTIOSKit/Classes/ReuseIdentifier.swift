@@ -8,14 +8,14 @@
 
 import UIKit
 
-extension UICollectionViewCell {
-    class func defaultReuseIdentifier() -> String {
+public extension UICollectionViewCell {
+    public class func defaultReuseIdentifier() -> String {
         return String(describing: self)
     }
 }
 
-extension UITableViewCell {
-    class func defaultReuseIdentifier() -> String {
+public extension UITableViewCell {
+    public class func defaultReuseIdentifier() -> String {
         return String(describing: self)
     }
 }

@@ -8,9 +8,9 @@
 
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
     
-    func embed(_ viewController: UIViewController, in containerView: UIView) {
+    public func embed(_ viewController: UIViewController, in containerView: UIView) {
         self.addChildViewController(viewController)
         viewController.beginAppearanceTransition(true, animated: false)
         containerView.embed(viewController.view)
