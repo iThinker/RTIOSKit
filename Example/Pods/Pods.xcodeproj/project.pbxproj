@@ -7,11 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E5A00A890033ABB73BC92028195A7FE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FA395E6DFF9E99EBCBD23D02881EDCB /* ReplaceMe.swift */; };
 		16681993AF47F4F57CF9062A0BFCE5C4 /* Pods-RTIOSKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480DBDAB98D8FA5EC88CD648760AA91 /* Pods-RTIOSKit_Tests-dummy.m */; };
 		263C0FC2583DA23C034618F7D6F83C64 /* RTIOSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0F9222A4188159284A6F16746B1A1 /* RTIOSKit-dummy.m */; };
 		264840AFDEF78732F30D62919261616D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		71C512C16543CEBB9C63E1528AC8866A /* RTIOSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FAADB81A89A810DD8D0600624D7F3C /* RTIOSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF87BACC1EE3B7CC00377E6B /* CollectionViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC51EE3B7CC00377E6B /* CollectionViewContainerCell.swift */; };
+		BF87BACE1EE3B7CC00377E6B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC61EE3B7CC00377E6B /* String+Extensions.swift */; };
+		BF87BAD01EE3B7CC00377E6B /* TableViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC71EE3B7CC00377E6B /* TableViewContainerCell.swift */; };
+		BF87BAD21EE3B7CC00377E6B /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC81EE3B7CC00377E6B /* UIView+NibLoading.swift */; };
+		BF87BAD41EE3B7CC00377E6B /* ViewControllerEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC91EE3B7CC00377E6B /* ViewControllerEmbedder.swift */; };
+		BF87BAD61EE3B7CC00377E6B /* ViewEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BACA1EE3B7CC00377E6B /* ViewEmbedder.swift */; };
+		BF87BADE1EE3B88800377E6B /* ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BADD1EE3B88800377E6B /* ReuseIdentifier.swift */; };
 		EFDC03575E097D76D4757E48CA7B9827 /* Pods-RTIOSKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE792C4418A45E6BC91F18C1934B818 /* Pods-RTIOSKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F39AE95613EACEF8A1363949B8FD68AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -41,8 +47,14 @@
 		939C67DD1FB54FC083C14987089A4534 /* Pods-RTIOSKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTIOSKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		97D756532B2543B411B9194F0F7A622C /* RTIOSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RTIOSKit.modulemap; sourceTree = "<group>"; };
-		9FA395E6DFF9E99EBCBD23D02881EDCB /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		B2ECDABCF1D0927AB325758E511FACA4 /* RTIOSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTIOSKit.xcconfig; sourceTree = "<group>"; };
+		BF87BAC51EE3B7CC00377E6B /* CollectionViewContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewContainerCell.swift; sourceTree = "<group>"; };
+		BF87BAC61EE3B7CC00377E6B /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		BF87BAC71EE3B7CC00377E6B /* TableViewContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewContainerCell.swift; sourceTree = "<group>"; };
+		BF87BAC81EE3B7CC00377E6B /* UIView+NibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
+		BF87BAC91EE3B7CC00377E6B /* ViewControllerEmbedder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerEmbedder.swift; sourceTree = "<group>"; };
+		BF87BACA1EE3B7CC00377E6B /* ViewEmbedder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEmbedder.swift; sourceTree = "<group>"; };
+		BF87BADD1EE3B88800377E6B /* ReuseIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIdentifier.swift; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC90E2A493AF6078BBCA9310E551349D /* Pods-RTIOSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTIOSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF4E469098EAD83CAB040FF4B22FB2FB /* Pods-RTIOSKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTIOSKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -73,7 +85,8 @@
 		071DE6467451C75BBD4AB5A579EEDE6B /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9FA395E6DFF9E99EBCBD23D02881EDCB /* ReplaceMe.swift */,
+				BF87BAD81EE3B80600377E6B /* Foundation */,
+				BF87BAD71EE3B7D300377E6B /* UI */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -164,6 +177,75 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		BF87BAD71EE3B7D300377E6B /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BAE11EE3B8E800377E6B /* Reuse Identifier */,
+				BF87BAE01EE3B8B500377E6B /* Extensions */,
+				BF87BADF1EE3B8A400377E6B /* Embedding */,
+				BF87BADC1EE3B83800377E6B /* UITableViewCell */,
+				BF87BADB1EE3B82700377E6B /* UICollectionViewCell */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BF87BAD81EE3B80600377E6B /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BADA1EE3B81900377E6B /* Extenstions */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		BF87BADA1EE3B81900377E6B /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BAC61EE3B7CC00377E6B /* String+Extensions.swift */,
+			);
+			name = Extenstions;
+			sourceTree = "<group>";
+		};
+		BF87BADB1EE3B82700377E6B /* UICollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BAC51EE3B7CC00377E6B /* CollectionViewContainerCell.swift */,
+			);
+			name = UICollectionViewCell;
+			sourceTree = "<group>";
+		};
+		BF87BADC1EE3B83800377E6B /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BAC71EE3B7CC00377E6B /* TableViewContainerCell.swift */,
+			);
+			name = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		BF87BADF1EE3B8A400377E6B /* Embedding */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BAC91EE3B7CC00377E6B /* ViewControllerEmbedder.swift */,
+				BF87BACA1EE3B7CC00377E6B /* ViewEmbedder.swift */,
+			);
+			name = Embedding;
+			sourceTree = "<group>";
+		};
+		BF87BAE01EE3B8B500377E6B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BAC81EE3B7CC00377E6B /* UIView+NibLoading.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		BF87BAE11EE3B8E800377E6B /* Reuse Identifier */ = {
+			isa = PBXGroup;
+			children = (
+				BF87BADD1EE3B88800377E6B /* ReuseIdentifier.swift */,
+			);
+			name = "Reuse Identifier";
+			sourceTree = "<group>";
+		};
 		D2673A88028E2602A177E322988020EC /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,10 +329,10 @@
 				LastUpgradeCheck = 0700;
 				TargetAttributes = {
 					26AA92C62725FBBCA25622639258F189 = {
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0830;
 					};
 					CDE70C64F11272BBBD1DA2E079E7258C = {
-						LastSwiftMigration = 0820;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -285,8 +367,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E5A00A890033ABB73BC92028195A7FE /* ReplaceMe.swift in Sources */,
+				BF87BAD41EE3B7CC00377E6B /* ViewControllerEmbedder.swift in Sources */,
+				BF87BACC1EE3B7CC00377E6B /* CollectionViewContainerCell.swift in Sources */,
+				BF87BAD61EE3B7CC00377E6B /* ViewEmbedder.swift in Sources */,
+				BF87BAD21EE3B7CC00377E6B /* UIView+NibLoading.swift in Sources */,
+				BF87BAD01EE3B7CC00377E6B /* TableViewContainerCell.swift in Sources */,
+				BF87BACE1EE3B7CC00377E6B /* String+Extensions.swift in Sources */,
 				263C0FC2583DA23C034618F7D6F83C64 /* RTIOSKit-dummy.m in Sources */,
+				BF87BADE1EE3B88800377E6B /* ReuseIdentifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +394,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B2ECDABCF1D0927AB325758E511FACA4 /* RTIOSKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -339,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DC90E2A493AF6078BBCA9310E551349D /* Pods-RTIOSKit_Tests.release.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -415,6 +505,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B2ECDABCF1D0927AB325758E511FACA4 /* RTIOSKit.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -491,6 +582,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5933358B17C97A70B704C62CD9EABC03 /* Pods-RTIOSKit_Tests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
