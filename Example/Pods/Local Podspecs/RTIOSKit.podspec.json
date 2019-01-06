@@ -1,8 +1,8 @@
 {
   "name": "RTIOSKit",
   "version": "0.1.0",
-  "summary": "A short description of RTIOSKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "Roman Temchenkos helper library",
+  "description": "A bunch of helpers used by me throughout different projects.",
   "homepage": "https://github.com/iThinker/RTIOSKit",
   "license": {
     "type": "MIT",
@@ -16,7 +16,8 @@
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "RTIOSKit/Classes/**/*"
+  "source_files": "RTIOSKit/Classes/**/*",
+  "frameworks": "UIKit"
 }

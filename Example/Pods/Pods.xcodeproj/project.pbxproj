@@ -7,19 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AB6F683FD6B5F080C173CDE594A0B32 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		0E304EA1BDDE1FFA4A5F8573981A8E37 /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927D1F0A73D97EE767D6D6A941FB392F /* UIView+NibLoading.swift */; };
+		0ECF0CD1E787730A01E332E6F754D037 /* ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35776DF63A24E29766C83B39F5D16C34 /* ReuseIdentifier.swift */; };
 		16681993AF47F4F57CF9062A0BFCE5C4 /* Pods-RTIOSKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3480DBDAB98D8FA5EC88CD648760AA91 /* Pods-RTIOSKit_Tests-dummy.m */; };
-		263C0FC2583DA23C034618F7D6F83C64 /* RTIOSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4BE0F9222A4188159284A6F16746B1A1 /* RTIOSKit-dummy.m */; };
-		264840AFDEF78732F30D62919261616D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		71C512C16543CEBB9C63E1528AC8866A /* RTIOSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86FAADB81A89A810DD8D0600624D7F3C /* RTIOSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BF87BACC1EE3B7CC00377E6B /* CollectionViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC51EE3B7CC00377E6B /* CollectionViewContainerCell.swift */; };
-		BF87BACE1EE3B7CC00377E6B /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC61EE3B7CC00377E6B /* String+Extensions.swift */; };
-		BF87BAD01EE3B7CC00377E6B /* TableViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC71EE3B7CC00377E6B /* TableViewContainerCell.swift */; };
-		BF87BAD21EE3B7CC00377E6B /* UIView+NibLoading.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC81EE3B7CC00377E6B /* UIView+NibLoading.swift */; };
-		BF87BAD41EE3B7CC00377E6B /* ViewControllerEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BAC91EE3B7CC00377E6B /* ViewControllerEmbedder.swift */; };
-		BF87BAD61EE3B7CC00377E6B /* ViewEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BACA1EE3B7CC00377E6B /* ViewEmbedder.swift */; };
-		BF87BADE1EE3B88800377E6B /* ReuseIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF87BADD1EE3B88800377E6B /* ReuseIdentifier.swift */; };
+		453EAA4992B6B933BAE926A3590F0727 /* RTIOSKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FD241D0BB177E8A2608B88198DAFEFFE /* RTIOSKit-dummy.m */; };
+		6EC704B1FCEE5A29715AA92414E56661 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		71C512C16543CEBB9C63E1528AC8866A /* RTIOSKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E9F8670E57241430545ED68E89F166B /* RTIOSKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FAD4DCD1F0F848FDE5C6F36F2B0FE72 /* RTTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7640558B6C5047E651B12DA7BBA88CD /* RTTableViewController.swift */; };
+		CF77651024B0C4EBA0E0CC5B038F26F5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		D34B6465A73B265800CDD619C00DDA3A /* ViewControllerEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B945BC38A395101FBA0C00EB41465454 /* ViewControllerEmbedder.swift */; };
+		D399DD4E85C906787C2512D97FF3BA2C /* CollectionViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC03DC390E7139241115271A734F8131 /* CollectionViewContainerCell.swift */; };
+		EC1BBF31D3B22A7AC5951BAC34C74A65 /* ViewEmbedder.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE8C7A4E883EB119F15912BEC0A7679 /* ViewEmbedder.swift */; };
+		ED3BEF9796F0F1DB6BEBB7C0BB3D3EB7 /* TableViewContainerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21C5338AFDBB4729D6881384B63D026E /* TableViewContainerCell.swift */; };
 		EFDC03575E097D76D4757E48CA7B9827 /* Pods-RTIOSKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FE792C4418A45E6BC91F18C1934B818 /* Pods-RTIOSKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F39AE95613EACEF8A1363949B8FD68AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		FB47E44565B0A6FE7F600AC3C3B4026D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4482CB37653E72AD33C214920C8190 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,41 +35,44 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04AD9D64BF1F82EBCBBADAB333ED0D02 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07D18185577DC1410CBA4EC9425E5632 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1857CD8B44F7DA4108441F40FDA2781E /* Pods_RTIOSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RTIOSKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		216A3FBD9C965BA513E7CD27880EE793 /* RTIOSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTIOSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1857CD8B44F7DA4108441F40FDA2781E /* Pods_RTIOSKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RTIOSKit_Tests.framework; path = "Pods-RTIOSKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F17E2AA2556D5E904D227FC22E3EAC2 /* RTIOSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTIOSKit.xcconfig; sourceTree = "<group>"; };
+		216A3FBD9C965BA513E7CD27880EE793 /* RTIOSKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RTIOSKit.framework; path = RTIOSKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21C5338AFDBB4729D6881384B63D026E /* TableViewContainerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableViewContainerCell.swift; path = RTIOSKit/Classes/TableViewContainerCell.swift; sourceTree = "<group>"; };
+		251DD98A594AC4E44DF532BC3108EC91 /* RTIOSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTIOSKit-prefix.pch"; sourceTree = "<group>"; };
 		2FE792C4418A45E6BC91F18C1934B818 /* Pods-RTIOSKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RTIOSKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		3480DBDAB98D8FA5EC88CD648760AA91 /* Pods-RTIOSKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RTIOSKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		3548A52C33C61EF815FD5FE7DA90DFB9 /* Pods-RTIOSKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTIOSKit_Tests-resources.sh"; sourceTree = "<group>"; };
-		4BE0F9222A4188159284A6F16746B1A1 /* RTIOSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTIOSKit-dummy.m"; sourceTree = "<group>"; };
+		35776DF63A24E29766C83B39F5D16C34 /* ReuseIdentifier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReuseIdentifier.swift; path = RTIOSKit/Classes/ReuseIdentifier.swift; sourceTree = "<group>"; };
+		4E71E4C041498D412482B9ACADED1EB2 /* RTIOSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = RTIOSKit.modulemap; sourceTree = "<group>"; };
 		5413F7DEC99C5454A80E981A9B6A3F0C /* Pods-RTIOSKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RTIOSKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5933358B17C97A70B704C62CD9EABC03 /* Pods-RTIOSKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTIOSKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		86FAADB81A89A810DD8D0600624D7F3C /* RTIOSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTIOSKit-umbrella.h"; sourceTree = "<group>"; };
+		81DE1670C5CCA38D23E4ADA16117AEC9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E9F8670E57241430545ED68E89F166B /* RTIOSKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTIOSKit-umbrella.h"; sourceTree = "<group>"; };
+		927D1F0A73D97EE767D6D6A941FB392F /* UIView+NibLoading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+NibLoading.swift"; path = "RTIOSKit/Classes/UIView+NibLoading.swift"; sourceTree = "<group>"; };
 		939C67DD1FB54FC083C14987089A4534 /* Pods-RTIOSKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RTIOSKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		97D756532B2543B411B9194F0F7A622C /* RTIOSKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = RTIOSKit.modulemap; sourceTree = "<group>"; };
-		B2ECDABCF1D0927AB325758E511FACA4 /* RTIOSKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RTIOSKit.xcconfig; sourceTree = "<group>"; };
-		BF87BAC51EE3B7CC00377E6B /* CollectionViewContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewContainerCell.swift; sourceTree = "<group>"; };
-		BF87BAC61EE3B7CC00377E6B /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		BF87BAC71EE3B7CC00377E6B /* TableViewContainerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewContainerCell.swift; sourceTree = "<group>"; };
-		BF87BAC81EE3B7CC00377E6B /* UIView+NibLoading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+NibLoading.swift"; sourceTree = "<group>"; };
-		BF87BAC91EE3B7CC00377E6B /* ViewControllerEmbedder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerEmbedder.swift; sourceTree = "<group>"; };
-		BF87BACA1EE3B7CC00377E6B /* ViewEmbedder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEmbedder.swift; sourceTree = "<group>"; };
-		BF87BADD1EE3B88800377E6B /* ReuseIdentifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReuseIdentifier.swift; sourceTree = "<group>"; };
-		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7640558B6C5047E651B12DA7BBA88CD /* RTTableViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RTTableViewController.swift; path = RTIOSKit/Classes/RTTableViewController.swift; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		B945BC38A395101FBA0C00EB41465454 /* ViewControllerEmbedder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewControllerEmbedder.swift; path = RTIOSKit/Classes/ViewControllerEmbedder.swift; sourceTree = "<group>"; };
+		BAE8C7A4E883EB119F15912BEC0A7679 /* ViewEmbedder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ViewEmbedder.swift; path = RTIOSKit/Classes/ViewEmbedder.swift; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DC90E2A493AF6078BBCA9310E551349D /* Pods-RTIOSKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RTIOSKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EF4E469098EAD83CAB040FF4B22FB2FB /* Pods-RTIOSKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RTIOSKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		FA591EE353D7E979E2EFACD64BACE02A /* Pods-RTIOSKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-RTIOSKit_Tests.modulemap"; sourceTree = "<group>"; };
-		FB312E90B5BD2A391DB43825FEAE16BF /* RTIOSKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RTIOSKit-prefix.pch"; sourceTree = "<group>"; };
+		FA591EE353D7E979E2EFACD64BACE02A /* Pods-RTIOSKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RTIOSKit_Tests.modulemap"; sourceTree = "<group>"; };
+		FC03DC390E7139241115271A734F8131 /* CollectionViewContainerCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CollectionViewContainerCell.swift; path = RTIOSKit/Classes/CollectionViewContainerCell.swift; sourceTree = "<group>"; };
+		FD241D0BB177E8A2608B88198DAFEFFE /* RTIOSKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RTIOSKit-dummy.m"; sourceTree = "<group>"; };
+		FD4482CB37653E72AD33C214920C8190 /* String+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+Extensions.swift"; path = "RTIOSKit/Classes/String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2B2D5880CAE83363A94B31F691EBEF47 /* Frameworks */ = {
+		C5887C6265B8847F41707F9E262DD863 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				264840AFDEF78732F30D62919261616D /* Foundation.framework in Frameworks */,
+				CF77651024B0C4EBA0E0CC5B038F26F5 /* Foundation.framework in Frameworks */,
+				6EC704B1FCEE5A29715AA92414E56661 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,26 +80,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F39AE95613EACEF8A1363949B8FD68AF /* Foundation.framework in Frameworks */,
+				0AB6F683FD6B5F080C173CDE594A0B32 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		071DE6467451C75BBD4AB5A579EEDE6B /* Classes */ = {
+		03739484DED5FF0F0EA0DF0B3EF083D8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF87BAD81EE3B80600377E6B /* Foundation */,
-				BF87BAD71EE3B7D300377E6B /* UI */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		0C4C82993090451D7A1C0204274A63CB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				31C11C95C6409F6832CD8EC05D576B9B /* RTIOSKit */,
+				5A39E5D8E38A710FA0C5F52EDF070E56 /* RTIOSKit */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -126,124 +122,49 @@
 			path = "Target Support Files/Pods-RTIOSKit_Tests";
 			sourceTree = "<group>";
 		};
-		30B02EBB8E9F40748A92EFDF9C739797 /* Support Files */ = {
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				04AD9D64BF1F82EBCBBADAB333ED0D02 /* Info.plist */,
-				97D756532B2543B411B9194F0F7A622C /* RTIOSKit.modulemap */,
-				B2ECDABCF1D0927AB325758E511FACA4 /* RTIOSKit.xcconfig */,
-				4BE0F9222A4188159284A6F16746B1A1 /* RTIOSKit-dummy.m */,
-				FB312E90B5BD2A391DB43825FEAE16BF /* RTIOSKit-prefix.pch */,
-				86FAADB81A89A810DD8D0600624D7F3C /* RTIOSKit-umbrella.h */,
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RTIOSKit";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		31C11C95C6409F6832CD8EC05D576B9B /* RTIOSKit */ = {
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				F8F07AD844A96B57993C4F600C46AE84 /* RTIOSKit */,
-				30B02EBB8E9F40748A92EFDF9C739797 /* Support Files */,
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5A39E5D8E38A710FA0C5F52EDF070E56 /* RTIOSKit */ = {
+			isa = PBXGroup;
+			children = (
+				FC03DC390E7139241115271A734F8131 /* CollectionViewContainerCell.swift */,
+				35776DF63A24E29766C83B39F5D16C34 /* ReuseIdentifier.swift */,
+				A7640558B6C5047E651B12DA7BBA88CD /* RTTableViewController.swift */,
+				FD4482CB37653E72AD33C214920C8190 /* String+Extensions.swift */,
+				21C5338AFDBB4729D6881384B63D026E /* TableViewContainerCell.swift */,
+				927D1F0A73D97EE767D6D6A941FB392F /* UIView+NibLoading.swift */,
+				B945BC38A395101FBA0C00EB41465454 /* ViewControllerEmbedder.swift */,
+				BAE8C7A4E883EB119F15912BEC0A7679 /* ViewEmbedder.swift */,
+				FADA7939FD69266C3E803F4944F936CF /* Support Files */,
 			);
 			name = RTIOSKit;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				0C4C82993090451D7A1C0204274A63CB /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				03739484DED5FF0F0EA0DF0B3EF083D8 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				261ECD858D66634D70528BE188DDD809 /* Products */,
 				D2673A88028E2602A177E322988020EC /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BF87BAD71EE3B7D300377E6B /* UI */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BAE11EE3B8E800377E6B /* Reuse Identifier */,
-				BF87BAE01EE3B8B500377E6B /* Extensions */,
-				BF87BADF1EE3B8A400377E6B /* Embedding */,
-				BF87BADC1EE3B83800377E6B /* UITableViewCell */,
-				BF87BADB1EE3B82700377E6B /* UICollectionViewCell */,
-			);
-			name = UI;
-			sourceTree = "<group>";
-		};
-		BF87BAD81EE3B80600377E6B /* Foundation */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BADA1EE3B81900377E6B /* Extenstions */,
-			);
-			name = Foundation;
-			sourceTree = "<group>";
-		};
-		BF87BADA1EE3B81900377E6B /* Extenstions */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BAC61EE3B7CC00377E6B /* String+Extensions.swift */,
-			);
-			name = Extenstions;
-			sourceTree = "<group>";
-		};
-		BF87BADB1EE3B82700377E6B /* UICollectionViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BAC51EE3B7CC00377E6B /* CollectionViewContainerCell.swift */,
-			);
-			name = UICollectionViewCell;
-			sourceTree = "<group>";
-		};
-		BF87BADC1EE3B83800377E6B /* UITableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BAC71EE3B7CC00377E6B /* TableViewContainerCell.swift */,
-			);
-			name = UITableViewCell;
-			sourceTree = "<group>";
-		};
-		BF87BADF1EE3B8A400377E6B /* Embedding */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BAC91EE3B7CC00377E6B /* ViewControllerEmbedder.swift */,
-				BF87BACA1EE3B7CC00377E6B /* ViewEmbedder.swift */,
-			);
-			name = Embedding;
-			sourceTree = "<group>";
-		};
-		BF87BAE01EE3B8B500377E6B /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BAC81EE3B7CC00377E6B /* UIView+NibLoading.swift */,
-			);
-			name = Extensions;
-			sourceTree = "<group>";
-		};
-		BF87BAE11EE3B8E800377E6B /* Reuse Identifier */ = {
-			isa = PBXGroup;
-			children = (
-				BF87BADD1EE3B88800377E6B /* ReuseIdentifier.swift */,
-			);
-			name = "Reuse Identifier";
 			sourceTree = "<group>";
 		};
 		D2673A88028E2602A177E322988020EC /* Targets Support Files */ = {
@@ -254,12 +175,18 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F8F07AD844A96B57993C4F600C46AE84 /* RTIOSKit */ = {
+		FADA7939FD69266C3E803F4944F936CF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				071DE6467451C75BBD4AB5A579EEDE6B /* Classes */,
+				81DE1670C5CCA38D23E4ADA16117AEC9 /* Info.plist */,
+				4E71E4C041498D412482B9ACADED1EB2 /* RTIOSKit.modulemap */,
+				1F17E2AA2556D5E904D227FC22E3EAC2 /* RTIOSKit.xcconfig */,
+				FD241D0BB177E8A2608B88198DAFEFFE /* RTIOSKit-dummy.m */,
+				251DD98A594AC4E44DF532BC3108EC91 /* RTIOSKit-prefix.pch */,
+				8E9F8670E57241430545ED68E89F166B /* RTIOSKit-umbrella.h */,
 			);
-			path = RTIOSKit;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RTIOSKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,8 +233,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3189AFDE344EB7BA32B7CCFBC87CBD2B /* Build configuration list for PBXNativeTarget "RTIOSKit" */;
 			buildPhases = (
-				D0D3B9E42272E5954FD1E4142028AACC /* Sources */,
-				2B2D5880CAE83363A94B31F691EBEF47 /* Frameworks */,
+				6CD14A30CFF95009BD1672CDF3C9A408 /* Sources */,
+				C5887C6265B8847F41707F9E262DD863 /* Frameworks */,
 				F7CA9F561C56D2A1C24B8C901E11DCE6 /* Headers */,
 			);
 			buildRules = (
@@ -325,16 +252,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
+				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
-				TargetAttributes = {
-					26AA92C62725FBBCA25622639258F189 = {
-						LastSwiftMigration = 0830;
-					};
-					CDE70C64F11272BBBD1DA2E079E7258C = {
-						LastSwiftMigration = 0830;
-					};
-				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -363,18 +282,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D0D3B9E42272E5954FD1E4142028AACC /* Sources */ = {
+		6CD14A30CFF95009BD1672CDF3C9A408 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF87BAD41EE3B7CC00377E6B /* ViewControllerEmbedder.swift in Sources */,
-				BF87BACC1EE3B7CC00377E6B /* CollectionViewContainerCell.swift in Sources */,
-				BF87BAD61EE3B7CC00377E6B /* ViewEmbedder.swift in Sources */,
-				BF87BAD21EE3B7CC00377E6B /* UIView+NibLoading.swift in Sources */,
-				BF87BAD01EE3B7CC00377E6B /* TableViewContainerCell.swift in Sources */,
-				BF87BACE1EE3B7CC00377E6B /* String+Extensions.swift in Sources */,
-				263C0FC2583DA23C034618F7D6F83C64 /* RTIOSKit-dummy.m in Sources */,
-				BF87BADE1EE3B88800377E6B /* ReuseIdentifier.swift in Sources */,
+				D399DD4E85C906787C2512D97FF3BA2C /* CollectionViewContainerCell.swift in Sources */,
+				0ECF0CD1E787730A01E332E6F754D037 /* ReuseIdentifier.swift in Sources */,
+				453EAA4992B6B933BAE926A3590F0727 /* RTIOSKit-dummy.m in Sources */,
+				9FAD4DCD1F0F848FDE5C6F36F2B0FE72 /* RTTableViewController.swift in Sources */,
+				FB47E44565B0A6FE7F600AC3C3B4026D /* String+Extensions.swift in Sources */,
+				ED3BEF9796F0F1DB6BEBB7C0BB3D3EB7 /* TableViewContainerCell.swift in Sources */,
+				0E304EA1BDDE1FFA4A5F8573981A8E37 /* UIView+NibLoading.swift in Sources */,
+				D34B6465A73B265800CDD619C00DDA3A /* ViewControllerEmbedder.swift in Sources */,
+				EC1BBF31D3B22A7AC5951BAC34C74A65 /* ViewEmbedder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,11 +310,49 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		25AFDE2A277D1B410410ED15975393A2 /* Debug */ = {
+		55F98596C1FE2CED3E07B00C41D540E4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2ECDABCF1D0927AB325758E511FACA4 /* RTIOSKit.xcconfig */;
+			baseConfigurationReference = DC90E2A493AF6078BBCA9310E551349D /* Pods-RTIOSKit_Tests.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RTIOSKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RTIOSKit_Tests/Pods-RTIOSKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RTIOSKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		69123218F07BE450A5232B5C47D4AA6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F17E2AA2556D5E904D227FC22E3EAC2 /* RTIOSKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -409,13 +367,14 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RTIOSKit/RTIOSKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RTIOSKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RTIOSKit/RTIOSKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = RTIOSKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -424,88 +383,11 @@
 			};
 			name = Debug;
 		};
-		2B5FD89374B08E838CDBD590770616AF /* Release */ = {
+		776E0DB193C4573A507E5C2438FA3A01 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC90E2A493AF6078BBCA9310E551349D /* Pods-RTIOSKit_Tests.release.xcconfig */;
+			baseConfigurationReference = 1F17E2AA2556D5E904D227FC22E3EAC2 /* RTIOSKit.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-RTIOSKit_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RTIOSKit_Tests/Pods-RTIOSKit_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_RTIOSKit_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		929F28BF152ECE2E02854798DB62B2E2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B2ECDABCF1D0927AB325758E511FACA4 /* RTIOSKit.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -520,13 +402,15 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RTIOSKit/RTIOSKit-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RTIOSKit/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RTIOSKit/RTIOSKit.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = RTIOSKit;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -534,11 +418,12 @@
 			};
 			name = Release;
 		};
-		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+		97803B46811A9BDB5E70FA1303AFBFFE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -546,10 +431,13 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGNING_REQUIRED = NO;
@@ -570,19 +458,64 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		EC9A58764B1EB9A72AE17BC6D957A745 /* Debug */ = {
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC616BFC93E8E3F18C23E5EFC41B46DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5933358B17C97A70B704C62CD9EABC03 /* Pods-RTIOSKit_Tests.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -596,7 +529,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-RTIOSKit_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RTIOSKit_Tests/Pods-RTIOSKit_Tests.modulemap";
@@ -608,6 +541,7 @@
 				PRODUCT_NAME = Pods_RTIOSKit_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -622,8 +556,8 @@
 		002A7F8176484B7AB1FF935A56F7E1A9 /* Build configuration list for PBXNativeTarget "Pods-RTIOSKit_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC9A58764B1EB9A72AE17BC6D957A745 /* Debug */,
-				2B5FD89374B08E838CDBD590770616AF /* Release */,
+				FC616BFC93E8E3F18C23E5EFC41B46DA /* Debug */,
+				55F98596C1FE2CED3E07B00C41D540E4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -631,8 +565,8 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
-				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+				97803B46811A9BDB5E70FA1303AFBFFE /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -640,8 +574,8 @@
 		3189AFDE344EB7BA32B7CCFBC87CBD2B /* Build configuration list for PBXNativeTarget "RTIOSKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				25AFDE2A277D1B410410ED15975393A2 /* Debug */,
-				929F28BF152ECE2E02854798DB62B2E2 /* Release */,
+				69123218F07BE450A5232B5C47D4AA6E /* Debug */,
+				776E0DB193C4573A507E5C2438FA3A01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
